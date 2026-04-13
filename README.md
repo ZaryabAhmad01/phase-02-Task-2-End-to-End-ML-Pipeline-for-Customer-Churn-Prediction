@@ -22,22 +22,6 @@ This project builds a production-ready machine learning pipeline to predict cust
 - `max_depth`: 10
 - `min_samples_split`: 2
 
-## How to Use the Pipeline
-
-### Load and Predict
-```python
-import joblib
-import pandas as pd
-
-# Load the pipeline
-model = joblib.load('churn_pipeline_tuned.joblib')
-
-# Predict on new customer data
-predictions = model.predict(X_new)
-probabilities = model.predict_proba(X_new)
-
-
-
 Requirements
 Python 3.10+
 
@@ -63,6 +47,21 @@ Pipeline is ready for production deployment
 
 Exported using joblib for reusability
 
+## How to Use the Pipeline
+
+### Load and Predict
+```python
+import joblib
+import pandas as pd
+
+# Load the pipeline
+model = joblib.load('churn_pipeline_tuned.joblib')
+
+# Predict on new customer data
+predictions = model.predict(X_new)
+probabilities = model.predict_proba(X_new)
+
+```
 Author
 Zaryab Ahmad
 Task completed as part of ML Internship Assignment
