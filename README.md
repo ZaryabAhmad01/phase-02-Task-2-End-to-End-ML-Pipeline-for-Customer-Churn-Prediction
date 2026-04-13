@@ -1,7 +1,5 @@
 # phase-02-Task-2-End-to-End-ML-Pipeline-for-Customer-Churn-Prediction
 
-# Task 2: End-to-End ML Pipeline for Customer Churn Prediction
-
 ## Project Overview
 This project builds a production-ready machine learning pipeline to predict customer churn using the Telco Customer Churn dataset.
 
