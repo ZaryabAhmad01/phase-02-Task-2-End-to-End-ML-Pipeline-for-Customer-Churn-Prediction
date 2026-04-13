@@ -35,6 +35,9 @@ model = joblib.load('churn_pipeline_tuned.joblib')
 # Predict on new customer data
 predictions = model.predict(X_new)
 probabilities = model.predict_proba(X_new)
+
+
+
 Requirements
 Python 3.10+
 
