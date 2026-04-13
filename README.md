@@ -5,7 +5,7 @@ This project builds a production-ready machine learning pipeline to predict cust
 
 ## Files Included
 - `churn_pipeline_tuned.joblib` - The complete trained pipeline (preprocessing + model)
-- `task_02_customer_churn.ipynb` - Jupyter notebook with full implementation
+- `phase_02_task_02_customer_churn.ipynb` - Jupyter notebook with full implementation
 
 ## Model Performance
 
